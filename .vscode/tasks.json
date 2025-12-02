@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Setup",
+            "type": "shell",
+            "command": "scripts/setup",
+            "problemMatcher": []
+        },
+        {
+            "label": "Lint",
+            "type": "shell",
+            "command": "scripts/lint",
+            "problemMatcher": []
+        },
+        {
+            "label": "Develop",
+            "type": "shell",
+            "command": "scripts/develop",
+            "problemMatcher": []
+        }
+    ]
+}
