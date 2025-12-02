@@ -1,4 +1,5 @@
 """Support for PMS5003 Particulate Matter Sensor."""
+
 from __future__ import annotations
 
 import logging
@@ -55,8 +56,7 @@ async def async_setup_entry(
     await coordinator.async_config_entry_first_refresh()
 
     entities = [
-        PMS5003Sensor(coordinator, description, entry)
-        for description in SENSOR_TYPES
+        PMS5003Sensor(coordinator, description, entry) for description in SENSOR_TYPES
     ]
 
     async_add_entities(entities)
