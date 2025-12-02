@@ -119,3 +119,8 @@ dmypy.json
 *.swp
 *.swo
 *~
+
+/config/.storage/
+/config/.HA_VERSION
+/config/blueprints/
+/config/home-assistant*
