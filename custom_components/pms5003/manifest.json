@@ -1,0 +1,12 @@
+{
+  "domain": "pms5003",
+  "name": "PMS5003 Particulate Matter Sensor",
+  "codeowners": ["@neild3r"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/neild3r/pm5003",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/neild3r/pm5003/issues",
+  "requirements": ["pms5003==1.0.1"],
+  "version": "1.0.0"
+}
