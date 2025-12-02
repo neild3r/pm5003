@@ -1,4 +1,5 @@
 """Constants for the PMS5003 Particulate Matter Sensor integration."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass

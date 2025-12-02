@@ -1,4 +1,5 @@
 """Config flow for PMS5003 Particulate Matter Sensor integration."""
+
 from __future__ import annotations
 
 import logging
@@ -43,6 +44,7 @@ async def validate_input(hass: HomeAssistant, data: dict[str, Any]) -> dict[str,
 
     def check_device():
         import os
+
         if not os.path.exists(serial_device):
             raise CannotConnect(f"Serial device {serial_device} does not exist")
 
