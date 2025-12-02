@@ -1,0 +1,5 @@
+{
+  "name": "PMS5003 Particulate Matter Sensor",
+  "render_readme": true,
+  "homeassistant": "2023.1.0"
+}

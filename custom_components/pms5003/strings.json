@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "PMS5003 Particulate Matter Sensor",
+        "description": "Configure your PMS5003 sensor connection.",
+        "data": {
+          "serial_device": "Serial Device",
+          "pin_enable": "Enable GPIO Pin",
+          "pin_reset": "Reset GPIO Pin"
+        },
+        "data_description": {
+          "serial_device": "Path to the serial device (e.g., /dev/ttyAMA0)",
+          "pin_enable": "GPIO pin for enabling the sensor (e.g., GPIO22)",
+          "pin_reset": "GPIO pin for resetting the sensor (e.g., GPIO27)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the serial device. Please check the device path.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}
